@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'miso-bold', sans-serif;
+  background: #fdde7e;
+}
+
+.container {
+  height: 500px;
+  max-width: 1200px;
+  margin-left: 70px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.child {
+  padding-bottom: 40px;
+  width: 300px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #00000044;
+}
+
+.gold_coffee {
+  border-radius: 6px;
+  box-shadow: 0 0 6px #00000044;
+  width: 300px;
+  padding: 60px 0 60px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.price {
+  font-size: 40px;
+  color:#02995b ;
+}
